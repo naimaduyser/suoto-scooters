@@ -1,0 +1,187 @@
+* {
+    background-color: #fcdf6c;
+    margin-left: 0px !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navigation {
+    position: static;
+    padding-top: 1vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.logo {
+    display: inline-block;
+    float: left;
+    font-size: 2vw;
+    font-family: "Rowdies", cursive;
+    color: black;
+    text-decoration: none;
+}
+
+.logo:hover a {
+    color: #7478d7;
+}
+
+.nav-links {
+    display: inline-block;
+    float: right;
+    word-spacing: 4vw;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 2vw;
+    font-family: Rowdies, cursive;
+}
+
+#mission:hover {
+    color: #7478d7;
+}
+
+#products:hover {
+    color: #7478d7;
+}
+
+#cart:hover {
+    color: #7478d7;
+}
+
+.scooter-welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 8vw;
+    left: 12vw;
+    height: 70vh;
+}
+
+.scooter-welcome h1 {
+    font-family: Rowdies, cursive;
+    font-size: 5vw;
+    width: 30vw;
+    text-align: center;
+}
+
+@-webkit-keyframes slide {
+    100% {
+        left: 1vw;
+    }
+}
+
+@keyframes slide {
+    100% {
+        left: 1vw;
+    }
+}
+
+/* Animated Scooter */
+#man-on-scooter {
+    display: inline-block;
+    position: relative;
+    max-width: 60%;
+    height: auto;
+    left: -200%;
+    -webkit-animation: slide 2s forwards;
+    -webkit-animation-delay: 1s;
+    animation: slide 2s forwards;
+    animation-delay: 1s;
+    margin-right: 2vw;
+}
+
+.our-mission {
+    height: 80vh;
+}
+
+.our-mission h2 {
+    font-family: Rowdies, cursive;
+    font-size: 4vw;
+    padding-left: 10vw;
+    margin-top: 40vh;
+}
+
+.mission-container {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+}
+
+#plant {
+    max-width: 30%;
+    height: auto;
+}
+
+#our-mission-text {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.2vw;
+    text-align: justify;
+    width: 80%;
+    margin-left: 8vw !important;
+    margin-right: 15vw;
+    line-height: 2vw;
+}
+
+.products-heading {
+    display: flex;
+    float: right;
+    padding-right: 10vw;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+}
+
+.products-heading h2 {
+    font-family: "Rowdies", sans-serif;
+    font-size: 4vw;
+}
+
+.product h3 {
+    font-family: "Rowdies", sans-serif;
+    font-size: 1.5vw;
+}
+
+.product p {
+    font-family: Rowdies, sans-serif;
+    font-size: 1vw;
+}
+
+.products-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8% !important;
+    margin-right: 10% !important;
+}
+
+.product {
+    width: 33%;
+    margin: auto;
+    text-align: justify;
+}
+
+.product-buy a {
+    font-family: "Rowdies", sans-serif;
+    font-size: 1.2vw;
+    background-color: #7478d7;
+    color: white;
+    padding: 0.5vw 1vw;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.products-container img {
+    width: 20vw;
+
+}
+
+.product p {
+    width: 20vw;
+    font-family: "Quicksand", Arial, sans-serif;
+}
