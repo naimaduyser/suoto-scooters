@@ -129,7 +129,7 @@ html {
     display: flex;
     float: right;
     padding-right: 10vw;
-    margin-top: 20vh;
+    margin-top: 30vh;
 }
 
 .products-heading h2 {
@@ -137,68 +137,79 @@ html {
     font-size: 4vw;
 }
 
+.pricing-table-scroll {
+    overflow: auto;
+    width: 100vw;
+    background-color: #fcdf6c;
+    min-width: 100vw;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-table h3 {
+    font-family: "Quicksand", Arial, sans-serif;
+}
+
+.pricing-table li {
+    font-family: "Quicksand", Arial, sans-serif;
+}
+
 .pricing-table {
-    margin-top: 10vh;
     display: flex;
-    float: left;
-    width: 33.3%;
-    padding: 8px;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    margin: 1rem;
+}
+
+.suoto-scooter {
+    background-color: #fcdf6c;
+    box-shadow: 0 7px 30px #7478d7;
+    border-radius: 18px;
+    padding: 2rem;
+    font-family: var(--body-font-family)
+}
+
+.suoto-scooter:hover {
+    background-color: #7478d7;
+    opacity: 0.9;
+    transition: 100ms;
 }
 
 ul {
     list-style-type: none;
-    border: 1px solid #eee;
-    margin: 0;
-    padding: 0;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-    background-color: white;
-    max-width: 100vw;
-}
-
-.suoto-scooter:hover {
-    box-shadow: 8px 8px 8px 8px rgba(116, 120, 215, 0.2);
-}
-
-.ul h3 {
-    background-color: #111;
-    color: white;
-    font-size: 25px;
-}
-
-.pricing-table li {
-    border-bottom: 1px solid #eee;
-    padding: 20px;
     text-align: center;
-    font-family: "Quicksand", Arial, sans-serif;
+
 }
 
-.pricing-table h3 {
-    font-family: "Rowdies", sans-serif;
+li {
+    margin: .8rem;
 }
 
 li img {
     width: auto;
     height: 40vh;
+    border-radius: 15px;
 }
 
-.pricing-table a {
-    background-color: #7478d7;
-    font-size: 1vw;
-    font-family: "Quicksand", Arial, sans-serif;
-}
-
-.learn-more-button {
-    border: none;
-    border-radius: 20px;
-    color: white;
-    padding: 10px 25px;
+h3 {
+    font-family: var(--heading-font-family);
+    font-size: 2.5vw;
     text-align: center;
-    text-decoration: none;
-    font-size: 18px;
+    text-transform: uppercase;
 }
 
-.pricing-table-scroll {
-    overflow: auto;
-    width: 100vw;
+.divider {
+    height: 1px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .2);
+    margin-top: 10px;
+}
+
+.close:hover,
+.close:focus {
+    color: #7478d7;
+    text-decoration: none;
+    cursor: pointer;
 }
