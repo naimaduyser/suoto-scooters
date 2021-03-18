@@ -1,5 +1,8 @@
 * {
     margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    max-width: 100vw;
 }
 
 html {
@@ -7,32 +10,32 @@ html {
     background-color: #fcdf6c;
 }
 
+/* Navigation Bar */
+
 .navigation {
     display: inline-flex;
     padding-left: 3.5vw;
     padding-top: 1.5vh;
 }
 
-.logo {
-    font-size: 2vw;
-    font-family: "Rowdies", cursive;
-    color: black;
-    text-decoration: none;
+.logo img {
+    width: 10vw;
 }
 
-.logo:hover {
+.logo img:hover {
     color: #7478d7;
 }
 
 .nav-links {
     position: relative;
-    left: 57vw;
+    left: 51vw;
+    padding-top: 3.5vh;
     word-spacing: 3vw;
 }
 
 .nav-links a {
     font-size: 2vw;
-    font-family: Rowdies, cursive;
+    font-family: "Rowdies", cursive;
     color: black;
     text-decoration: none;
 }
@@ -48,6 +51,8 @@ html {
 #cart:hover {
     color: #7478d7;
 }
+
+/* Home Page */
 
 .scooter-welcome {
     width: 100%;
@@ -79,6 +84,7 @@ html {
 }
 
 /* Animated Scooter */
+
 #man-on-scooter {
     display: inline-block;
     position: relative;
@@ -91,6 +97,8 @@ html {
     animation-delay: 1s;
     margin-right: 2vw;
 }
+
+/* Mission Section */
 
 .our-mission {
     height: 80vh;
@@ -108,6 +116,7 @@ html {
     width: 100%;
     height: 80vh;
     align-items: center;
+
 }
 
 #plant {
@@ -119,17 +128,18 @@ html {
     font-family: "Quicksand", sans-serif;
     font-size: 1.2vw;
     text-align: justify;
-    width: 80%;
+    width: 55%;
     margin-left: 8vw !important;
-    margin-right: 15vw;
     line-height: 2vw;
 }
+
+/* Products */
 
 .products-heading {
     display: flex;
     float: right;
     padding-right: 10vw;
-    margin-top: 30vh;
+    margin-top: 20vh;
 }
 
 .products-heading h2 {
@@ -138,8 +148,9 @@ html {
 }
 
 .pricing-table-scroll {
-    overflow: auto;
-    width: 100vw;
+    margin-top: 40vh;
+    overflow: scroll;
+    width: 100%;
     background-color: #fcdf6c;
     min-width: 100vw;
     min-height: 100vh;
@@ -159,7 +170,6 @@ html {
     display: flex;
     justify-content: center;
     align-items: stretch;
-    width: 100%;
     margin: 1rem;
 }
 
@@ -168,7 +178,7 @@ html {
     box-shadow: 0 7px 30px #7478d7;
     border-radius: 18px;
     padding: 2rem;
-    font-family: var(--body-font-family)
+    width: 30vw;
 }
 
 .suoto-scooter:hover {
@@ -189,27 +199,104 @@ li {
 
 li img {
     width: auto;
-    height: 40vh;
+    height: 30vh;
     border-radius: 15px;
 }
 
 h3 {
-    font-family: var(--heading-font-family);
-    font-size: 2.5vw;
+    font-size: 2vw;
     text-align: center;
     text-transform: uppercase;
 }
 
-.divider {
-    height: 1px;
-    width: 100%;
-    background-color: rgba(0, 0, 0, .2);
-    margin-top: 10px;
-}
+.border-bottom {}
 
 .close:hover,
 .close:focus {
     color: #7478d7;
     text-decoration: none;
     cursor: pointer;
+}
+
+/* Footer */
+
+.site-footer {
+    background-color: #7478d7;
+    padding: 5vh 10vw 5vh 10vw;
+    color: white;
+    height: 30vh;
+    font-family: "Quicksand", Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container p {
+    font-size: 1rem;
+    width: 50%;
+    line-height: 2.5vh;
+    text-align: justify;
+}
+
+.footer-container h6 {
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "Rowdies", Arial, sans-serif !important;
+}
+
+.footer-container li {
+    text-align: left;
+    position: relative;
+    right: 36px;
+}
+
+.footer-column2 {
+    width: 30%;
+}
+
+.footer-column3 {
+    width: 30%;
+}
+
+.site-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    color: #fcdf6c;
+    text-decoration: none;
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+    color: #fcdf6c;
+    text-decoration: none;
+}
+
+.social-media-container {
+    margin-top: 8vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media-icons {
+    word-spacing: 1.5vw;
+    float: right;
+    padding-right: 10vw;
+}
+
+.fa {
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    color: #fcdf6c;
 }
