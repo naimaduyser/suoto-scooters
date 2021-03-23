@@ -158,6 +158,10 @@ html {
 
 /* Mission */
 
+#suoto-mission {
+    padding-top: 1.5vh;
+}
+
 .ourmission-container {
     margin-top: 20vh !important;
     width: 100%;
@@ -206,6 +210,10 @@ html {
 }
 
 /* Products */
+
+#suoto-products {
+    padding-top: 1.5vh;
+}
 
 .products {
     overflow: scroll;
