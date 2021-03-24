@@ -449,8 +449,8 @@ html {
         align-items: center;
         justify-content: center;
         width: 100%;
-        padding-top: 20vh;
-        height: 70vh;
+        padding-top: 10vh;
+        height: 60vh;
     }
 
     .welcome-container img {
@@ -546,6 +546,9 @@ html {
 
     /* Mission */
 
+    #suoto-mission {
+        padding-top: 20vh;
+    }
 
     .ourmission-container {
         margin-top: 20vh !important;
@@ -597,7 +600,7 @@ html {
     /* Products */
 
     #suoto-products {
-        padding-top: 5vh !important;
+        padding-top: 15vh !important;
     }
 
     .products {
@@ -762,7 +765,7 @@ html {
     }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 810px) {
+@media only screen and (max-width: 320px) {
 
     html {
         max-width: 100%;
