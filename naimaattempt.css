@@ -213,7 +213,7 @@ html {
     /* Products */
 
     #suoto-products {
-        padding-top: 15vh !important;
+        padding-top: 10vh !important;
     }
 
     .products {
@@ -296,7 +296,7 @@ html {
 
     .site-footer {
         background-color: #7478d7;
-        padding: 5vh 10vw 5vh 10vw;
+        padding: 5vh 5vw 5vh 5vw;
         color: white;
         min-height: 30vh;
         font-family: "Quicksand", Arial, sans-serif;
@@ -307,9 +307,14 @@ html {
         justify-content: space-around;
     }
 
+    .footer-column1 {
+        position: relative;
+        right: 4.5vw;
+    }
+
     .footer-container p {
         font-size: 1rem;
-        width: 50%;
+        width: 35vw;
         line-height: 2.5vh;
         text-align: justify;
     }
@@ -335,16 +340,9 @@ html {
         right: 36px;
         list-style-type: none;
         line-height: 3vh;
+        width: 15vw;
     }
 
-    .footer-column2 {
-        width: 30%;
-        margin-right: 15vh !important;
-    }
-
-    .footer-column3 {
-        width: 30%;
-    }
 
     .site-footer a {
         color: white;
