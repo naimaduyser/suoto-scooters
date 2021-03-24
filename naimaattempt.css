@@ -248,10 +248,6 @@ html {
         text-align: center;
         padding: 2.5vh 2.5vw 2.5vh 2.5vw;
         font-size: 1.2vw;
-        border-top: solid 1vw white;
-        border-bottom: solid 1vw white;
-        border-left: solid 0.5vw white;
-        border-right: solid 0.5vw white;
     }
 
     .suoto-scooter h3 {
@@ -265,6 +261,7 @@ html {
         margin-top: 5vh !important;
         margin-bottom: 2.5vh !important;
         float: none;
+        border-radius: 20px;
     }
 
     .suoto-scooter p {
