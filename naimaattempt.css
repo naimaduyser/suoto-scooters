@@ -823,7 +823,7 @@ html {
         align-items: center;
         justify-content: center;
         width: 100%;
-        padding-top: 20vh;
+        padding-top: 10vh;
         height: 70vh;
     }
 
@@ -921,7 +921,7 @@ html {
     /* Mission */
 
     #suoto-mission {
-        padding-top: 10vh;
+        padding-top: 20vh;
     }
 
     .ourmission-container {
@@ -974,7 +974,7 @@ html {
     /* Products */
 
     #suoto-products {
-        padding-top: 10vh !important;
+        padding-top: 20vh !important;
     }
 
     .products {
