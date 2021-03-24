@@ -546,6 +546,10 @@ html {
 
     /* Mission */
 
+    #suoto-mission {
+        padding-top: -5vh;
+    }
+
     .ourmission-container {
         margin-top: 20vh !important;
         width: 100%;
