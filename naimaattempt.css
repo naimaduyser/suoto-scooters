@@ -920,6 +920,9 @@ html {
 
     /* Mission */
 
+    #suoto-mission {
+        padding-top: 10vh;
+    }
 
     .ourmission-container {
         margin-top: 20vh !important;
@@ -971,7 +974,7 @@ html {
     /* Products */
 
     #suoto-products {
-        padding-top: 5vh !important;
+        padding-top: 10vh !important;
     }
 
     .products {
