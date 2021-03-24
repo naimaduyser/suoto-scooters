@@ -449,8 +449,7 @@ html {
         align-items: center;
         justify-content: center;
         width: 100%;
-        padding-top: 10vh;
-        height: 60vh;
+        height: 50vh;
     }
 
     .welcome-container img {
@@ -547,7 +546,7 @@ html {
     /* Mission */
 
     #suoto-mission {
-        padding-top: 20vh;
+        padding-top: 20vh !important;
     }
 
     .ourmission-container {
@@ -826,8 +825,7 @@ html {
         align-items: center;
         justify-content: center;
         width: 100%;
-        padding-top: 10vh;
-        height: 70vh;
+        height: 50vh;
     }
 
     .welcome-container img {
@@ -924,7 +922,7 @@ html {
     /* Mission */
 
     #suoto-mission {
-        padding-top: 20vh;
+        padding-top: 20vh !important;
     }
 
     .ourmission-container {
