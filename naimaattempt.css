@@ -261,6 +261,7 @@ html {
         margin-top: 5vh !important;
         margin-bottom: 2.5vh !important;
         float: none;
+        border: solid 0.25vw black;
         border-radius: 20px;
         transition: height 0.5s ease;
     }
@@ -646,10 +647,16 @@ html {
 
     .product-image {
         width: auto;
-        max-height: 20vh;
+        height: 20vh;
         margin-top: 5vh !important;
         margin-bottom: 2.5vh !important;
         border-radius: 10px;
+        border: solid 0.5vw black;
+        transition: height 0.5s ease;
+    }
+
+    .product-image:hover {
+        height: 25vh;
     }
 
     .suoto-scooter p {
@@ -1027,6 +1034,13 @@ html {
         margin-top: 5vh !important;
         margin-bottom: 2.5vh !important;
         border-radius: 10px;
+        border: solid 0.5vw black;
+        transition: height 0.5s ease;
+    }
+
+
+    .product-image:hover {
+        height: 25vh;
     }
 
     .suoto-scooter p {
